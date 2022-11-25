@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="/src/images/favicon.svg" type="image/x-icon" />
+      <!-- TailwindCSS -->
+      <link rel="stylesheet" href="/dist/output.css" />
+      <!-- Boxicons -->
+      <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+      <!-- Aos CSS -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+      <title>M.Reyhan Dwi Amberta PortFolio</title>
+   </head>
+
+   <body>
+      <!-- START : NAVBAR -->
+      <nav>
+         <div class="container flex items-center justify-between">
+            <a href="#">
+               <img src="/src/images/logo_1.svg" alt="" />
+            </a>
+            <input type="checkbox" class="peer hidden" name="hamburger" id="hamburger" />
+            <label class="peer-checked:hamburger block cursor-pointer p-2 md:hidden" for="hamburger">
+               <div class="m-auto h-0.5 w-6 rounded bg-white transition duration-300"></div>
+               <div class="m-auto mt-2 h-0.5 w-6 rounded bg-white transition duration-300"></div>
+            </label>
+            <div
+               class="absolute inset-x-0 top-20 flex -translate-x-full flex-col items-center gap-8 bg-slate-800 py-8 opacity-0 transition duration-300 peer-checked:translate-x-0 peer-checked:opacity-100 md:relative md:top-0 md:translate-x-0 md:flex-row md:bg-transparent md:py-0 md:opacity-100">
+               <a href="#about"
+                  class="text-white hover:border-b hover:border-white hover:pb-2 transition-all duration-300">ABOUT</a>
+               <a href="#skills"
+                  class="text-white hover:border-b hover:border-white hover:pb-2 transition-all duration-300">WHAT
+                  I DO</a>
+               <a href="#portfolio"
+                  class="text-white hover:border-b hover:border-white hover:pb-2 transition-all duration-300">WORK</a>
+               <a href="#contact"
+                  class="text-white hover:border-b hover:border-white hover:pb-2 transition-all duration-300">CONTACT</a>
+            </div>
+         </div>
+      </nav>
+      <!-- END : NAVBAR -->
+
+      <!-- START : HERO -->
+      <div class="bg-hero-img">
+         <div class="flex items-center justify-center flex-col h-screen">
+            <h1 class="text-white font-bold text-4xl md:text-6xl" data-aos="zoom-in">I'm M.Reyhan Dwi Amberta</h1>
+            <h2 class="text-white text-sm sm:text-lg md:text-xl font-bold mt-4" data-aos="zoom-in" data-aos-delay="200">
+               Front-End Developer - UI/UX Designer - Junior Full-Stack Devloper
+            </h2>
+            <div class="flex items-center justify-center gap-8 mt-8" data-aos="zoom-in" data-aos-delay="400">
+               <a href="https://www.instagram.com/ehanhehehe/"
+                  class="text-slate-900 hover:text-white hover:bg-slate-900 transition duration-300 ease-out flex items-center justify-center w-12 h-12 bg-white rounded-full">
+                  <i class="bx bxl-instagram text-3xl"></i>
+               </a>
+               <a href="https://github.com/WepssPros"
+                  class="text-slate-900 hover:text-white hover:bg-slate-900 transition duration-300 ease-out flex items-center justify-center w-12 h-12 bg-white rounded-full">
+                  <i class="bx bxl-github text-3xl"></i>
+               </a>
+               <a href="https://www.linkedin.com/in/reyhan-dwi-amberta-806087220/"
+                  class="text-slate-900 hover:text-white hover:bg-slate-900 transition duration-300 ease-out flex items-center justify-center w-12 h-12 bg-white rounded-full">
+                  <i class="bx bxl-linkedin text-3xl"></i>
+               </a>
+            </div>
+         </div>
+      </div>
+      <!-- END : HERO -->
+
+      <!-- START : ABOUT -->
+      <section class="container" id="about">
+         <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+            <img src="/src/images/about-image.png" alt="" data-aos="fade-up" data-aos-delay="400" />
+            <div data-aos="fade-down" data-aos-delay="600">
+               <h3 class="font-bold text-blue-600 text-2xl">ABOUT ME</h3>
+               <h4 class="text-white font-bold text-3xl mt-2">I'm M.Reyhan Dwi Amberta</h4>
+               <p class="text-lg text-slate-500 mt-8">
+                  Hi, Introducing My Name is M.Reyhan Dwi Amberta, I am a Front-end Developer, and I also work as a UI &
+                  UX Designer. I also have skills in managing Product Designer and Video Creator, I have almost 2 to 3
+                  years of experience in handling and being involved in the world of technology including Front-End
+                  Developers, I hope you like my Portfolio Thank you, keep learning!
+               </p>
+               <p class="text-lg text-slate-500 mt-2">
+                  Until now I am still active in doing freelance work, as well as coding, and working on small and large
+                  projects in a company that is not too attached, but I do not rule out the possibility that I will work
+                  full time in the company you are building, I am happy to do a new job or learn a new structure in a
+                  company, because my enthusiasm in learning new things allows you to work with me even better and build
+                  a goal that we can desire.
+               </p>
+            </div>
+         </div>
+      </section>
+      <!-- END : ABOUT -->
+
+      <!-- START : SKILL -->
+      <section class="container" id="skills">
+         <h3 class="font-bold text-blue-600 text-2xl text-center" data-aos="fade-up">WHAT I DO</h3>
+         <h4 class="text-white font-bold text-3xl mt-2 text-center" data-aos="fade-up">SPECIALIZING IN</h4>
+         <div class="max-w-[980px] mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-7 mt-8">
+            <!-- Card Skill 1 -->
+            <div class="flex flex-col gap-8 bg-slate-800/80 rounded-xl px-6 py-5" data-aos="zoom-in"
+               data-aos-delay="400">
+               <div class="flex gap-4">
+                  <img class="p-3 rounded-md bg-slate-700" src="/src/images/skill-fe.svg" alt="">
+                  <h5 class="text-2xl font-semibold text-white">Front-End <br>Developer</h5>
+               </div>
+               <p class="text-lg text-slate-400">
+                  Develop new web interface features for users
+                  Create reusable code
+                  Guarantee the technical feasibility of the UI/UX design
+                  Guarantees all validated user input is sent to the back-end
+               </p>
+            </div>
+
+            <!-- Card Skill 2 -->
+            <div class="flex flex-col gap-8 bg-slate-800/80 rounded-xl px-6 py-5" data-aos="zoom-in"
+               data-aos-delay="600">
+               <div class="flex gap-4">
+                  <img class="p-3 rounded-md bg-slate-700" src="/src/images/skill-ui.svg" alt="">
+                  <h5 class="text-2xl font-semibold text-white">UI/UX<br>Designer</h5>
+               </div>
+               <p class="text-lg text-slate-400">
+                  Conduct user research and competitor analysis related to UI/UX design
+                  Responsible for understanding project directions and turning them into attractive and useful UI/UX
+                  designs.
+
+               </p>
+            </div>
+            <!-- Card Skill 3 -->
+            <div class="flex flex-col gap-8 bg-slate-800/80 rounded-xl px-6 py-5" data-aos="zoom-in"
+               data-aos-delay="600">
+               <div class="flex gap-4">
+                  <img class="p-3 rounded-md bg-slate-700" src="/src/images/skill-ui.svg" alt="">
+                  <h5 class="text-2xl font-semibold text-white">Product<br>Designer</h5>
+               </div>
+               <p class="text-lg text-slate-400">
+                  Meet with clients to develop designs, including concept, performance and production criteria
+                  Work on ideas as part of a team
+                  Sketch initial design ideas
+                  Identify suitability and availability of materials
+               </p>
+            </div>
+            <!-- Card Skill 3 -->
+            <div class="flex flex-col gap-8 bg-slate-800/80 rounded-xl px-6 py-5" data-aos="zoom-in"
+               data-aos-delay="600">
+               <div class="flex gap-4">
+                  <img class="p-3 rounded-md bg-slate-700" src="/src/images/skill-ui.svg" alt="">
+                  <h5 class="text-2xl font-semibold text-white">Video<br>Createor</h5>
+               </div>
+               <p class="text-lg text-slate-400">
+                  Assembling raw footage and transferring or uploading to a computer
+                  Following a script, screenplay or outline
+                  Inputting sound to enhance footage, which may include selecting music and writing voice-overs
+
+               </p>
+            </div>
+         </div>
+
+      </section>
+      <!-- START : SKILL -->
+
+      <!-- START : PORTFOLIO -->
+      <section class="container" id="portfolio">
+         <h3 class="font-bold text-blue-600 text-2xl text-center" data-aos="fade-up">PORTFOLIO</h3>
+         <h4 class="text-white font-bold text-3xl mt-2 text-center" data-aos="fade-up">LATEST PROJECTS I DO</h4>
+         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-8">
+
+            <!-- Card Portfolio 1 -->
+            <div class="flex flex-col bg-slate-800/80 rounded-xl overflow-hidden" data-aos="zoom-in"
+               data-aos-delay="400">
+               <img src="/src/images/Project 1.png" alt="">
+               <div class="px-5 py-4">
+                  <h4 class="text-2xl font-medium text-white">LuxSpace Furniture</h4>
+                  <a href="https://luxspace-io.netlify.app/"
+                     class="inline-flex mt-4 px-4 py-3 font-semibold text-sm text-white rounded-md bg-blue-500 hover:scale-105 hover:bg-blue-600 active:scale-95 transition-all duration-300">View
+                     Demo</a>
+               </div>
+            </div>
+
+            <!-- Card Portfolio 2 -->
+            <div class="flex flex-col bg-slate-800/80 rounded-xl overflow-hidden" data-aos="zoom-in"
+               data-aos-delay="600">
+               <img src="/src/images/Project 2.png" alt="">
+               <div class="px-5 py-4">
+                  <h4 class="text-2xl font-medium text-white">Nomads Travel</h4>
+                  <a href="https://nomads-io.netlify.app/"
+                     class="inline-flex mt-4 px-4 py-3 font-semibold text-sm text-white rounded-md bg-blue-500 hover:scale-105 hover:bg-blue-600 active:scale-95 transition-all duration-300">View
+                     Demo</a>
+               </div>
+            </div>
+
+            <!-- Card Portfolio 3 -->
+            <div class="flex flex-col bg-slate-800/80 rounded-xl overflow-hidden" data-aos="zoom-in"
+               data-aos-delay="800">
+               <img src="/src/images/Project 3.png" alt="">
+               <div class="px-5 py-4">
+                  <h4 class="text-2xl font-medium text-white">Android WEPS</h4>
+                  <a href=""
+                     class="inline-flex mt-4 px-4 py-3 font-semibold text-sm text-white rounded-md bg-blue-500 hover:scale-105 hover:bg-blue-600 active:scale-95 transition-all duration-300">Download
+                     Git</a>
+               </div>
+            </div>
+
+            <!-- Card Portfolio 4 -->
+            <div class="flex flex-col bg-slate-800/80 rounded-xl overflow-hidden" data-aos="zoom-in"
+               data-aos-delay="800">
+               <img src="/src/images/Project 4.png" alt="">
+               <div class="px-5 py-4">
+                  <h4 class="text-2xl font-medium text-white">Bell Shoes Laundry</h4>
+                  <a href=""
+                     class="inline-flex mt-4 px-4 py-3 font-semibold text-sm text-white rounded-md bg-blue-500 hover:scale-105 hover:bg-blue-600 active:scale-95 transition-all duration-300">Download
+                     Git</a>
+               </div>
+            </div>
+
+            <!-- Card Portfolio 5 -->
+            <div class="flex flex-col bg-slate-800/80 rounded-xl overflow-hidden" data-aos="zoom-in"
+               data-aos-delay="800">
+               <img src="/src/images/Project 5.png" alt="">
+               <div class="px-5 py-4">
+                  <h4 class="text-2xl font-medium text-white">Bank Sampah Web & Android</h4>
+                  <a href=""
+                     class="inline-flex mt-4 px-4 py-3 font-semibold text-sm text-white rounded-md bg-blue-500 hover:scale-105 hover:bg-blue-600 active:scale-95 transition-all duration-300">Download
+                     Git</a>
+               </div>
+            </div>
+
+            <!-- Card Portfolio 6 -->
+            <div class="flex flex-col bg-slate-800/80 rounded-xl overflow-hidden" data-aos="zoom-in"
+               data-aos-delay="800">
+               <img src="/src/images/Project 6.png" alt="">
+               <div class="px-5 py-4">
+                  <h4 class="text-2xl font-medium text-white">Zhafirah Catering</h4>
+                  <a href=""
+                     class="inline-flex mt-4 px-4 py-3 font-semibold text-sm text-white rounded-md bg-blue-500 hover:scale-105 hover:bg-blue-600 active:scale-95 transition-all duration-300">
+                     Download Git
+                  </a>
+               </div>
+            </div>
+            <!-- Card Portfolio 7 -->
+            <div class="flex flex-col bg-slate-800/80 rounded-xl overflow-hidden" data-aos="zoom-in"
+               data-aos-delay="800">
+               <img src="/src/images/Project 7.png" alt="">
+               <div class="px-5 py-4">
+                  <h4 class="text-2xl font-medium text-white">Teanol Market</h4>
+                  <a href=""
+                     class="inline-flex mt-4 px-4 py-3 font-semibold text-sm text-white rounded-md bg-blue-500 hover:scale-105 hover:bg-blue-600 active:scale-95 transition-all duration-300">
+                     Download Git
+                  </a>
+               </div>
+            </div>
+            <!-- Card Portfolio 8 -->
+            <div class="flex flex-col bg-slate-800/80 rounded-xl overflow-hidden" data-aos="zoom-in"
+               data-aos-delay="800">
+               <img src="/src/images/Project 8.png" alt="">
+               <div class="px-5 py-4">
+                  <h4 class="text-2xl font-medium text-white">Marketplace WESP</h4>
+                  <a href=""
+                     class="inline-flex mt-4 px-4 py-3 font-semibold text-sm text-white rounded-md bg-blue-500 hover:scale-105 hover:bg-blue-600 active:scale-95 transition-all duration-300">
+                     Download Git
+                  </a>
+               </div>
+            </div>
+            <!-- Card Portfolio 9 -->
+            <div class="flex flex-col bg-slate-800/80 rounded-xl overflow-hidden" data-aos="zoom-in"
+               data-aos-delay="800">
+               <img src="/src/images/Project 9.png" alt="">
+               <div class="px-5 py-4">
+                  <h4 class="text-2xl font-medium text-white">Dewatavape Store</h4>
+                  <a href=""
+                     class="inline-flex mt-4 px-4 py-3 font-semibold text-sm text-white rounded-md bg-blue-500 hover:scale-105 hover:bg-blue-600 active:scale-95 transition-all duration-300">
+                     Download Git
+                  </a>
+               </div>
+            </div>
+
+         </div>
+
+      </section>
+      <!-- END : PORTFOLIO -->
+
+      <!-- START : CONTACT -->
+      <section class="container" id="contact">
+         <div class="max-w-6xl mx-auto bg-slate-800/80 rounded-xl" data-aos="zoom-in">
+            <div class="text-center py-16" data-aos="zoom-out" data-aos-delay="400">
+               <h3 class="text-2xl md:text-3xl font-bold text-white pb-5">Have any project in mind ?</h3>
+               <a href="https://mail.google.com"
+                  class="mt-4 px-4 py-3 mr-3 font-semibold text-sm text-white rounded-md bg-blue-500 hover:scale-105 hover:bg-blue-600 active:scale-95 transition-all duration-300">
+                  Email me
+               </a>
+               <a href="https://wa.link/meqgvp"
+                  class="mt-4 px-4 py-3 mr-3 font-semibold text-sm text-white rounded-md bg-blue-500 hover:scale-105 hover:bg-blue-600 active:scale-95 transition-all duration-300">
+                  Whatsapp me
+               </a>
+               <a href="https://www.instagram.com/ehanhehehe/"
+                  class="mt-4 px-4 py-3 mr-3 font-semibold text-sm text-white rounded-md bg-blue-500 hover:scale-105 hover:bg-blue-600 active:scale-95 transition-all duration-300">
+                  Dirrect Message
+               </a>
+            </div>
+
+         </div>
+      </section>
+      <!-- END : CONTACT -->
+
+      <!-- START : FOOTER -->
+      <footer class="bg-slate-800/80">
+         <div class="container py-6">
+            <img class="mx-auto" src="/src/images/logo_1.svg" alt="">
+            <p class="text-lg font-medium text-white text-center mt-2">Copyright 2018 M.Reyhan Dwi Amberta.</p>
+         </div>
+      </footer>
+      <!-- END : FOOTER -->
+
+      <!-- Script Js -->
+      <script src="/src/js/main.js"></script>
+      <!-- Aos JS -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+         AOS.init({
+            duration: 400,
+            ofset: 500
+         });
+
+      </script>
+   </body>
+
+</html>
+cl

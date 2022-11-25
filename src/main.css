@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-poppins bg-[#212121]
+    }
+
+    section {
+        @apply py-28
+    }
+}
+
+@layer components {
+    nav {
+        @apply fixed inset-x-0 z-10 py-8 transition duration-300
+    }
+}
